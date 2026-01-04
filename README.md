@@ -1,6 +1,6 @@
 # JSON Data Cleaning Project (Python)
-# Important Note:
-This repository uses completely dummy abd fictional user data.
+## Important Note:
+This repository uses completely dummy and fictional user data.
 All emails and passwords are fake and used only for learning and data-cleaning practice.
 
 ## Problem
