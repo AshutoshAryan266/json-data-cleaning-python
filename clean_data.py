@@ -17,8 +17,8 @@ def cleanData(data):
         item["lastname"]  = item["lastname"].strip().capitalize()
         # make sure username should be in lower case and no whitespaces
         item["username"] = item["username"].strip().lower()
-        #take care of password weather it has more than 1 and less than 8 characters or not
-        if len(item["password"]) >1 and len(item["password"]) <8 and " " not in item["password"]:
+        #take care of password weather it has more than 1 and less than 16 characters or not
+        if len(item["password"]) >1 and len(item["password"]) <16 and " " not in item["password"]:
             item["password"] = item["password"]
         else:
             item.pop("password") # remove the password key if it does not satisfy the condition
